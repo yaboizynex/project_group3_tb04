@@ -1,5 +1,5 @@
 # 1.	Make an API call  to https://www.alphavantage.co to extract forex (FX) with the following API parameters:
-function=FX_WEEKLY
+function=CURRENCY_EXCHANGE_RATE
 from_currency=USD 
 to_currency=SGD
 # Find the mean of the weekly closing forex price from the after extracting the forex as JSON data.
