@@ -18,6 +18,7 @@ with open('Cash on Hand.csv') as csv_file:
                 triggered = True
                 print(
                     f"Cash on hand, on day {day} is lower than that on the previous day by {previous_cash - cash}")
+            print(f"Difference in day {day-1} and day {day} is {cash-previous_cash} dollars")
             previous_cash = cash
         line_count += 1
 
