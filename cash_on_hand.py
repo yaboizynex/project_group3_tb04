@@ -2,7 +2,7 @@
 from pathlib import Path
 import csv
 
-file_path= Path.cwd()/"Cashon Hand.csv"
+file_path= Path.cwd()/"CashonHand.csv"
 
 with open('Cash on Hand.csv') as csv_file:
     triggered = False  # to keep track of if any this happens even once
