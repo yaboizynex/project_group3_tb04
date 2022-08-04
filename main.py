@@ -5,4 +5,4 @@ def main():
   coh.coh_function(forex)
   profit_loss.profitloss_function(forex)
   
-  main()
+main()
