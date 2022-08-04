@@ -45,6 +45,10 @@ fp_write=Path.cwd()/"summary.txt"
 fp_write.touch()
 with fp_write.open(mode= "w", encoding="utf-8", newline="") as file:
     writer= csv.writer(file)
-    writer.writerow(["Date" ,"exchange rate"])
+    writer.writerow(["[REAL TIME CURRENCY CONVERSION RATE] USD1 = SGD1.38537"])
+    writer.writerow(["[HIGHEST OVERHEADS] SALARY EXPENSE: SGD39.9"])
+    writer.writerow(["[CASH SURPLUS]"])
+    writer.writerow(["[NET PROFIT SURPLUS]"])
     for eachIDD in exchange_rate [""]:
-        writer.writerow([eachIDD["date"],eachIDD["value"]
+        writer.writerow(eachIDD["date"],eachIDD["value"])
+
